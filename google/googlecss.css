@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+.image {
+    text-align: center;
+}
+
+input {
+    margin:5px ;
+}
+
+.bar {
+    background-color: rgb(245, 245, 245);
+    
+}
+
+.card1 {
+    background-color: rgb(139, 176, 255);
+    float: left;
+    width: 650px;
+    padding: 15px;
+    
+    
+}
+
+.card2 {
+    background-color: rgb(165, 194, 255);
+    float: left;
+    width: 450px;
+    padding: 15px;
+}
+.card3 {
+    background-color: rgb(187, 207, 250);
+    float:left;
+    width: 800px;
+    padding: 7px;
+}
+
+.section {
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.card1 > a:hover {
+     color: rgb(234, 0, 255);
+}
+
+.card1 > a { text-decoration: none;
+
+}
+
